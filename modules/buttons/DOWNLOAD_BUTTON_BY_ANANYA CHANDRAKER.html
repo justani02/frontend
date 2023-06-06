@@ -1,0 +1,76 @@
+<div>
+    <style>
+      .download_button{        
+        padding:0px;
+        height:60px;
+        width: 240px;
+        border-width: 0;
+        border-radius:7px;
+        color:#ffffff;
+        font-size:20px;
+        font-weight: 150;
+        display: flex;
+        align-items: end;
+        overflow: hidden;
+      }
+      .download_now{
+        background-color:#01a8b4ed;
+        height: inherit;
+        width: inherit;
+        display: inherit;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+      }
+      .download_text{
+        padding-top: 2px;
+        padding-left: 5px;
+      }
+      .icon{
+        background-color: rgb(255, 255, 255);
+        height: 63px;
+        width: 53px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .arrow_right {
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid rgb(255, 255, 255);
+        position: relative;
+        left: -1px;
+
+      }
+      .underline_g{
+        position: absolute;
+        z-index: 15;
+        height: 7.5px;
+        width: inherit;
+        background-color: rgba(0, 0, 0, 0.333);
+        border-end-end-radius: 40px;
+        border-end-start-radius: 40px;
+      }
+    </style>
+    <div>
+        <button class="download_button">
+            <div class="icon">
+                <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 7.5V5C3 3.89543 3.89543 3 5 3H16.1716C16.702 3 17.2107 3.21071 17.5858 3.58579L20.4142 6.41421C20.7893 6.78929 21 7.29799 21 7.82843V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V16.5" stroke="#00B3C1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6 21V17" stroke="#00B3C1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M18 21V13.6C18 13.2686 17.7314 13 17.4 13H15" stroke="#00B3C1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 3V8.4C16 8.73137 15.7314 9 15.4 9H13.5" stroke="#00B3C1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8 3V6" stroke="#00B3C1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M1 12H12M12 12L9 9M12 12L9 15" stroke="#00B3C1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>            
+            </div>
+            <div class="download_now">
+            <div class="arrow_right"></div>
+                <span class="download_text">DOWNLOAD NOW</span>
+            </div>
+            <div class="underline_g"></div>            
+        </button>
+    </div>
+</div>
